@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-cream: #F7F3EB;
+  --color-cream-dark: #EFE8DA;
+  --color-terracotta: #9E4B1E;
+  --color-forest: #2C3A23;
+  --color-gold: #C49A6C;
+}
+
+body {
+  background-color: #F7F3EB;
+  color: #1A1A1A;
+  font-family: var(--font-sans);
+}
